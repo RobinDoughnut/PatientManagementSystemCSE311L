@@ -28,7 +28,7 @@ else
 	border-top: 2px dashed #8c8b8b;
 }
     body{
-        background: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-blackboard-chalkboard-concrete_1258-52289.jpg?w=2000);
+        background: url(https://img.freepik.com/free-photo/smooth-gray-background_53876-108462.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1698537600&semt=ais);
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
@@ -39,13 +39,14 @@ else
 <body>
     <?php require('navbar_admin_panel.php') ?>;
     <div class="container">
-        <h2 class="text-center text-danger mt-5">Admin Panel</h2>
+        <h2 class="text-center text-info mt-5">Admin Panel</h2>
         <div class="container w-50 mt-5">
         <div><button onclick="location.href='http://localhost/HMS/doctor_reg.php'" type="button" class="btn btn-primary btn-lg w-100 mt-3">Add Doctor Informaion</button></div>
         <hr class="style5">
         <div><button onclick="location.href='http://localhost/HMS/patient_reg_ad.php'" type="button" class="btn btn-primary btn-lg w-100">Register New User</button></div>
         <hr class="style5">
-        <div><button onclick="location.href='http://localhost/HMS/update_pateint_ad_landing.php'" type="button" class="btn btn-primary btn-lg w-100 mb-3">Update Patient Database</button></div>
+         <div><button onclick="location.href='http://localhost/HMS/css/index.php'" type="button" class="btn btn-primary btn-lg w-100 mb-3">Edit Patient Database</button></div>
+
         </div>   
     </div>
 

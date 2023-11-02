@@ -90,6 +90,10 @@ $con->close();
           echo "<td> {$cost} </td>";
           echo "<td> {$date} </td>";
           echo "</tr>";
+
+             echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+
+
         }
 
         ?>
