@@ -14,7 +14,7 @@ else
   session_start();
   if(!isset($_SESSION['adminloggedIn']) || $_SESSION['adminloggedIn'] = false)
   {
-    header("Location: http://localhost/dbms_project/admin login.php ");
+    header("Location: http://localhost/hms/admin login.php ");
     exit;
   }
 

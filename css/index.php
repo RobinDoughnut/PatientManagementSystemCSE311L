@@ -58,7 +58,7 @@
                        <td><?php echo $row['age']; ?></td> 
                        <td><?php echo $row['gender']; ?></td> 
                        <td><?php echo $row['password']; ?></td> 
-                       <td><a href='#' class = "btn btn-primary">Edit</a></td> 
+                       <td><a href="edit2.php?patient_ID=<?php echo $row['patient_ID']; ?>" class = "btn btn-primary">Edit</a></td> 
                        <td><a href="delete.php?patient_ID=<?php echo $row['patient_ID']; ?>" class="btn btn-danger">Delete</a></td>
                 </tr>
                 <?php    
@@ -74,4 +74,5 @@
     </div>
 </body>
 </html>
+
 
